@@ -1,0 +1,16 @@
+name: sms_forwarder
+description: SMS to Webhook
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  sms_advanced: ^1.1.0
+  permission_handler: ^11.3.0
+
+flutter:
+  uses-material-design: true
